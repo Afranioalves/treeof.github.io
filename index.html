@@ -133,15 +133,11 @@
          <source src="natal.mp3" type="audio/mpeg">
     </audio>
 
-   <script>
-       window.addEventListener('load', async () => {
-  let audio = document.querySelector('audio[muted][autoplay]');
-  try {
-    await audio.play();
-  } catch (err) {
-    video.controls = true;
-  }
-});
+    <script>
+        window.onload = function(){
+           let audio = document.querySelector('audio');
+           audio.play();
+       }
     </script>
    
 </body>
