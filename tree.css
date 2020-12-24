@@ -1,0 +1,91 @@
+ html,body,.container{height: 100%;margin:0}
+    body{background-color:#000;}
+    p.tree{color:#fff;text-align: center;}
+    div.container{display: flex;align-items: center;justify-content: center;z-index: 9999;}
+    span.color-1{animation: 2s animate-1 infinite;}
+    span.color-2{animation: 2s animate-2 infinite;}
+    span.color-3{animation: 2s animate-3 infinite;}
+
+
+    @keyframes animate-1 {
+        0%{color:white;}
+        25%{color:yellow}
+        50%{color:red;}
+        70%{color:greenyellow;}
+        95%{color:green}
+    }
+     @keyframes animate-2 {
+        0%{color:white;}
+        25%{color:red}
+        50%{color:yellow;}
+        70%{color:greenyellow;}
+        95%{color:green}
+    }
+
+     @keyframes animate-3 {
+        0%{color:white;}
+        25%{color:greenyellow}
+        50%{color:red;}
+        70%{color:yellow;}
+        95%{color:green}
+    }
+   .author{opacity: 0.5;font-family: calibri;}
+   button{padding: 8px;border:none;cursor: pointer;border-radius: 8px;outline: none;}
+   div.card-neve{height: 100%;position: fixed;width: 100%;padding: 8px; display: flex;justify-content: space-between;}
+   .neve{color:#fff;opacity: 0;}
+   .fragmento-1{animation: 20s anime-1 infinite ;}
+    .fragmento-2{animation: 20s anime-1 infinite ;animation-delay:1s;}
+    .fragmento-3{animation: 20s anime-1 infinite ;animation-delay:0s;}
+    .fragmento-4{animation: 20s anime-1 infinite ;animation-delay:11s;}
+    .fragmento-5{animation: 20s anime-1 infinite ;animation-delay:8s;}
+     .fragmento-6{animation: 20s anime-1 infinite ;animation-delay:5s;}
+    .fragmento-7{animation: 20s anime-1 infinite ;animation-delay:10s;}
+    .fragmento-8{animation: 20s anime-1 infinite ;animation-delay:3s;}
+    .fragmento-9{animation: 20s anime-1 infinite ;animation-delay:4s;}
+    .fragmento-10{animation: 20s anime-1 infinite ;animation-delay:1s;}
+    .fragmento-11{animation: 20s anime-1 infinite ;animation-delay:15s;}
+    .fragmento-12{animation: 20s anime-1 infinite ;animation-delay:1s;}
+    .fragmento-13{animation: 20s anime-1 infinite ;animation-delay:8s;}
+     .fragmento-14{animation: 20s anime-1 infinite ;animation-delay:5s;}
+    .fragmento-15{animation: 20s anime-1 infinite ;animation-delay:12s;}
+    .fragmento-16{animation: 20s anime-1 infinite ;animation-delay:3s;}
+    .fragmento-17{animation: 20s anime-1 infinite ;animation-delay:15s;}
+    .fragmento-18{animation: 20s anime-1 infinite ;animation-delay:1s;}
+    .fragmento-19{animation: 20s anime-1 infinite ;animation-delay:15s;}
+    .fragmento-20{animation: 20s anime-1 infinite ;animation-delay:1s;}
+    .fragmento-21{animation: 20s anime-1 infinite ;animation-delay:4s;}
+     .fragmento-22{animation: 20s anime-1 infinite ;animation-delay:0s;}
+    .fragmento-23{animation: 20s anime-1 infinite ;animation-delay:12s;}
+    .fragmento-24{animation: 20s anime-1 infinite ;animation-delay:3s;}
+    .fragmento-25{animation: 20s anime-1 infinite ;animation-delay:8s;}
+
+     .fragmento-26{animation: 20s anime-1 infinite ;animation-delay:0s;}
+    .fragmento-27{animation: 20s anime-1 infinite ;animation-delay:2s;}
+    .fragmento-28{animation: 20s anime-1 infinite ;animation-delay:8s;}
+    .fragmento-29{animation: 20s anime-1 infinite ;animation-delay:10s;}
+    .fragmento-30{animation: 20s anime-1 infinite ;animation-delay:1s;}
+    .fragmento-31{animation: 20s anime-1 infinite ;animation-delay:15s;}
+    .fragmento-32{animation: 20s anime-1 infinite ;animation-delay:0s;}
+    .fragmento-33{animation: 20s anime-1 infinite ;animation-delay:4s;}
+    .fragmento-34{animation: 20s anime-1 infinite ;animation-delay:0s;}
+    .fragmento-35{animation: 20s anime-1 infinite ;animation-delay:8s;}
+
+    .fragmento-37{animation: 20s anime-1 infinite ;animation-delay:15s;}
+    .fragmento-38{animation: 20s anime-1 infinite ;animation-delay:16s;}
+    .fragmento-39{animation: 20s anime-1 infinite ;animation-delay:17s;}
+    .fragmento-40{animation: 20s anime-1 infinite ;animation-delay:18s;}
+    .fragmento-41{animation: 20s anime-1 infinite ;animation-delay:19s;}
+    .fragmento-42{animation: 20s anime-1 infinite ;animation-delay:20s;}
+    .fragmento-43{animation: 20s anime-1 infinite ;animation-delay:21s;}
+    .fragmento-44{animation: 20s anime-1 infinite ;animation-delay:22s;}
+    .fragmento-45{animation: 20s anime-1 infinite ;animation-delay:23s;}
+    .fragmento-46{animation: 20s anime-1 infinite ;animation-delay:24s;}
+    
+    
+     @keyframes anime-1 {
+        0%{opacity:0;}
+        20%{opacity: 1;}
+        95%{margin-top: 100vh;}
+    }
+ 
+    audio{display: none;}
